@@ -1,0 +1,26 @@
+Truy cập lấy dữ liệu trên web server:
+http://www.cion.vn/birthdaycake.html (tên miền)
+    Request 1 trang web server: hiển thị phần văn bản trên html.
+    Response trả kết quả về .
+           Thuộc tính mô tả ảnh
+    <img src="path" alt="content"/>
+
+    Trong quá trình chờ đợi nhận ảnh về hoặc ảnh bị lỗi thì dùng : 
+
+        <img src="images/birthdaycake.jpg"
+        alt="bánh sinh nhật"/>
+    
+            Thuộc tính chú giải : 
+    <img src="path" alt="contne" title="content"/>
+
+            Quy định kích thước của hình ảnh nhận về : 
+            width : chiều rộng , height : chiều cao.
+        <img src="path" alt="contne" width="number" height="number"/>
+
+    Thể hiện caption cho ảnh :
+            đặt figcaption ở trên thì caption sẽ nằm trên hình ảnh và ngược lại'
+    <figure>
+        <figcaption>bánh sinh nhật </figcaption>
+        <img src="path" alt="contne"/>
+    </figure>
+    

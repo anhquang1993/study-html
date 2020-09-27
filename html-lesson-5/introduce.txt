@@ -1,0 +1,26 @@
+ngắt dòng : dùng 2 cách.
+    1. dùng line Break : </br> , dùng ở cuối dòng.
+ngắt dòng văn bản, hình ảnh,video...
+
+    2.dùng Pre-formatted: <pre>text</pre>
+Định dạng : thơ ca,câu trích dẫn, fomat đặc biệt.
+đoạn văn bản sẽ định dạng theo như mã nguồn soạn thảo.
+
+    3.dùng blockquote :<blockquote>text</blockquote> trích dẫn câu nói của ai đó hoặc
+từ nguồn nào đó mà không thay đổi chữ nào.
+
+    4.dùng Boil : <b>content</b>,in đậm chữ trong thẻ.
+
+    5.dùng Italic : <i>content</i> ,in nghiêng.
+
+    6.dùng emphasis :<em>content</em> in nghiêng + nhấn mạnh từ quan trọng.
+
+    7.dùng <strong>content</strong>: in đậm + nhấn mạnh câu từ,chữ trong đoạn văn 
+
+    8.dùng undeline : <u>content</u> : gachj dưới từ ngữ cần chọn.
+
+    9.đưa chữ lên trên : <sup>content</sup>
+
+    10.đưa chữ xuống dưới : <sub>content</sub>
+
+    11.gạch giữa chữ : <del>content</del>

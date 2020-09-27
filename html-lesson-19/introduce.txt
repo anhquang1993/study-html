@@ -1,2 +1,0 @@
-bài 19: HTML Semantic: Kỹ thuật tạo cấu trúc bảng theo ngữ nghĩa
-

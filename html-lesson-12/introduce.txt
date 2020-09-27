@@ -1,0 +1,30 @@
+bài 12: IFrame: Nhúng trang web lồng nhau
+
+ Chia trang thành các phần nhỏ : gọi là frame
+    1-giúp giảm được băng thông mạng khi trang web nạp lại dữ liệu.
+ (load data or refresh data). 
+    2-giúp cải thiện tốc độ làm việc của website.
+    3-chia nhỏ mã nguồn giúp quản lí và bảo trì dễ dàng hơn.
+
+    ex: 
+     <html>
+        <head> </head>
+            <frameset cols="150,*">
+                <frame src="banner.html" name="top">
+                <frameset rows="150,*">
+                    <frame src="menu.html" name="left">
+                    <frame src="home.html" name="main">
+                </frameset>
+            </frameset>
+    </html>
+
+
+thay cho thẻ frame = <ifame> </ifame>
+
+     Khác biệt cơ bản : iframe có thể được đặt ở bất cứ vị trí nào trong trang web. 
+    -độ linh hoạt cao 
+    -cú pháp đơn giản.
+ex :
+<ifame width="300" heght="600" src="file_path"> </iframe>
+nếu trình duyệt không hỗ trợ thẻ ifame thì ta chèn thêm dòng thông báo :
+<ifame width="300" heght="600" src="file_path">trình duyệt không hỗ trợ ifame </iframe>

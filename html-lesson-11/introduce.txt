@@ -1,0 +1,13 @@
+     Bài 11: Video Tag: Nhúng video vào trang web
+
+Thẻ <video width="800" heght="600" autoplay controls> 
+        <source src="videos/my_birthday.mp4" type="video/mp4"/>
+        <source src="videos/my_birthday.webbM" type="video/webbM"/>
+        <source src="videos/my_birthday.ogg" type="video/ogg"/>
+    <video/>
+
+-autoplay : tự động chạy video mà k cần người dùng bấm vào nút play.
+-controls : thêm thanh điều chỉnh như : play , stop hoặc tua nhanh.
+-type : mp4 => video/mp4
+        webbM =>video/webbM
+        ogg => video/ogg

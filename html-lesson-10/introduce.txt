@@ -1,0 +1,27 @@
+ 
+Bài 10: HTML Object & Embed Tag
+
+    html plugin  : những chương trình nhỏ hỗ trợ những nội dung mà html không hỗ trợ.
+    Thực hiện những loại dữ liệu mà html không hỗ trợ thì ta dùng 2 thẻ Object & Embed .
+Thẻ <Object> : nhúng các html plugin bào các trang web.
+        thuộc tính alt (alternative) : hình ảnh không hiển thị kịp hoặc không hiển thị nó sẽ mô tat hình ảnh.
+
+    ex:
+<object data="img/cake1.jpg" type="image/jpg">
+    bánh sinh nhật
+</object>
+
+    Chèn video :
+    thẻ parameter : định nghĩa tham số cho object.
+    giá trị name : tên tham số 
+    giá trị lalue : giá trị tương ứng với tham số đó. 
+
+<object data="videos/my_birthday/mp4" width="800" height="600">
+    <param name="quality" value="hight">
+    <param name="autoplay" value="true">
+</object>
+
+   Thẻ <embeb> (là thẻ rỗng chỉ có trong html 5): thay thế cho thẻ <object>
+
+   <embeb src="videos/my_birthday/mp4" width="800" height="600">
+    quality="hight"/>

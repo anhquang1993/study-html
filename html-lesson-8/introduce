@@ -1,0 +1,20 @@
+Cách chèn hình ảnh và video vào văn bản.
+
+    1.content image: dùng hình ảnh để truyền tải nội dung cho người xem.
+
+        dùng thẻ :<img src="images/cake1"> <img src="images/cake1"/>
+
+ở thư mục khác cấp thì dùng dấu : ../ nếu hơn 2 cấp thì dùng ../../
+ ví dụ ta đang ở mục child.html
+    html
+        child.html
+    images
+        cake1
+   ex:  <
+   img src="../images/cake1"/>
+ 
+ 
+        src : đường dẫn chạy tới file chúng ta đang lưu trữ.
+        (đường dẫn tuyệt đối và đường dẫn tương đối)
+    2/background image: chỉ làm đẹp cho website chứ không có nội dung gì cả.
+dùng trong css
